@@ -58,7 +58,6 @@ add_library(bcommon STATIC
 
 set_target_properties(bcommon PROPERTIES
 	CLEAN_DIRECT_OUTPUT 1
-	VERSION ${BCOMMON_VERSION}
 )
 
 target_link_libraries (bcommon bgfx bimg bx)
